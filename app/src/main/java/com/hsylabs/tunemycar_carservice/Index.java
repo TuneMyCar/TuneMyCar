@@ -240,6 +240,11 @@ public class Index extends AppCompatActivity {
                 editor.commit();
 
                 break;
+            case R.id.item_menu_0:
+                finish();
+            case R.id.item_menu_2:
+                Intent i = new Intent(Index.this, AboutTeam.class);
+                startActivity(i);
         }
         return true;
     }
